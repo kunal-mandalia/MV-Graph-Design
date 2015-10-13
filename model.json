@@ -1,0 +1,7 @@
+{
+  a: { layer: ["b", "c"], relationships: []},
+  b: { layer: ["d","e"], relationships: ["c"]},
+  c: { layer: [], relationships: []},
+  d: { layer: [], relationships: ["e"]},
+  e: { layer: [], relationships: []},
+}
