@@ -1,0 +1,858 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"date",
+				"DateModified"
+			],
+			[
+				"Oppo",
+				"OpportunityID"
+			],
+			[
+				"opp",
+				"OpportunityID"
+			],
+			[
+				"Opp",
+				"OpportunityValue"
+			],
+			[
+				"CRN",
+				"CRM_Opportunity"
+			],
+			[
+				"update",
+				"updateDB"
+			],
+			[
+				"tabl",
+				"tableIndex"
+			],
+			[
+				"oper",
+				"operation"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"chan",
+				"changelog"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"sync",
+				"syncTimestamp"
+			],
+			[
+				"crm",
+				"CRM_LocalChange"
+			],
+			[
+				"loca",
+				"localData"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"local",
+				"localData"
+			],
+			[
+				"data",
+				"dataSet"
+			],
+			[
+				"Oper",
+				"operationStatus"
+			],
+			[
+				"current",
+				"currentTable"
+			],
+			[
+				"tables",
+				"tablesAffected"
+			],
+			[
+				"table",
+				"tableIncluded"
+			],
+			[
+				"curren",
+				"currentTable"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"change",
+				"changeItem"
+			],
+			[
+				"changelog",
+				"changelogCount"
+			],
+			[
+				"loc",
+				"localData"
+			],
+			[
+				"Los",
+				"Los_Angeles"
+			],
+			[
+				"some",
+				"someFunction"
+			],
+			[
+				"upda",
+				"updateChangeLog"
+			],
+			[
+				"set",
+				"setLocalStorage"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"dat",
+				"dateToYMDHMS"
+			],
+			[
+				"UTC",
+				"UTCstring"
+			],
+			[
+				"H",
+				"hours"
+			],
+			[
+				"da",
+				"dateModifiedId"
+			],
+			[
+				"Date",
+				"DateModified"
+			],
+			[
+				"tab",
+				"tableSchemaValue"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"key",
+				"keyValue"
+			],
+			[
+				"curre",
+				"currentKeyValue"
+			],
+			[
+				"curr",
+				"currentKeyValue"
+			],
+			[
+				"column",
+				"columnNo"
+			],
+			[
+				"arry",
+				"array"
+			],
+			[
+				"CRM",
+				"CRMTableData"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"CRM_",
+				"CRM_Opportunity"
+			],
+			[
+				"Proj",
+				"ProjectName"
+			],
+			[
+				"Pro",
+				"Project"
+			],
+			[
+				"Stat",
+				"StatusClass"
+			],
+			[
+				"Boo",
+				"BootStrapClass"
+			],
+			[
+				"B",
+				"BootStrapClass"
+			],
+			[
+				"jso",
+				"jsonResult"
+			],
+			[
+				"temp",
+				"tempVar"
+			],
+			[
+				"tem",
+				"tempVar"
+			],
+			[
+				"VAR",
+				"var_dump"
+			],
+			[
+				"night",
+				"nightmode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"apik",
+				"apiKeyResult"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"bind",
+				"bind_result"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"in",
+				"inputURL"
+			],
+			[
+				"re",
+				"RES2"
+			],
+			[
+				"ap",
+				"Apikey"
+			],
+			[
+				"check",
+				"checkApiKeyResult"
+			],
+			[
+				"chec",
+				"checkApiKeyResult"
+			],
+			[
+				"aPI",
+				"Apikey"
+			],
+			[
+				"api",
+				"apiCallResult"
+			],
+			[
+				"array",
+				"arrayName"
+			],
+			[
+				"output",
+				"outputJSON"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"quote",
+				"quote_process"
+			],
+			[
+				"clos",
+				"close_project"
+			],
+			[
+				"lin",
+				"links"
+			],
+			[
+				"link",
+				"linkedTo"
+			],
+			[
+				"svg",
+				"svgPath"
+			],
+			[
+				"path",
+				"pathEl"
+			],
+			[
+				"gra",
+				"graphicIndex"
+			],
+			[
+				"pah",
+				"pathEl"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"ST",
+				"STAGE_ID"
+			],
+			[
+				"PRO",
+				"PROJECT_ID"
+			],
+			[
+				"Stage",
+				"STAGE_ID"
+			],
+			[
+				"out",
+				"outputField"
+			],
+			[
+				"m",
+				"matchField"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"wip",
+				"wipeMap"
+			],
+			[
+				"cir",
+				"circle"
+			],
+			[
+				"DAT",
+				"DATASET_NAMES"
+			],
+			[
+				"D",
+				"DATASET_NAMES"
+			],
+			[
+				"add",
+				"addDataSetName"
+			],
+			[
+				"datase",
+				"DATASET_NAMES"
+			],
+			[
+				"name",
+				"nameExists"
+			],
+			[
+				"S",
+				"Size"
+			],
+			[
+				"plot",
+				"plotCircle"
+			],
+			[
+				"que",
+				"queryString"
+			],
+			[
+				"upd",
+				"updatedTable"
+			],
+			[
+				"chunk",
+				"chunkedArray"
+			],
+			[
+				"up",
+				"updatedTable"
+			],
+			[
+				"Geo",
+				"Geocode_status"
+			],
+			[
+				"chun",
+				"chunkedArray"
+			],
+			[
+				"ch",
+				"chunkedInput"
+			],
+			[
+				"inp",
+				"inputLength"
+			],
+			[
+				"outp",
+				"outputArray"
+			],
+			[
+				"inpu",
+				"inputLength"
+			],
+			[
+				"input",
+				"inputArray"
+			],
+			[
+				"geoc",
+				"Geocode_status"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"con",
+				"cont2"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"hi",
+				"hiddenTable"
+			],
+			[
+				"sh",
+				"Show"
+			],
+			[
+				"Cor",
+				"Coordinates_lat"
+			],
+			[
+				"Coor",
+				"Coordinates_lat"
+			],
+			[
+				"Da",
+				"Data_set"
+			],
+			[
+				"val",
+				"valueSet"
+			],
+			[
+				"va",
+				"valueSetItem"
+			],
+			[
+				"co",
+				"coordinatesNotOK"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"fea",
+				"featureUK"
+			],
+			[
+				"context",
+				"contextCount"
+			],
+			[
+				"statu",
+				"status_message"
+			],
+			[
+				"stat",
+				"status_message"
+			],
+			[
+				"mysqli",
+				"mysqli_query"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"xde",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdebug",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: Remove Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"xdebug: s",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"start",
+				"Xdebug: Restart Session"
+			],
+			[
+				"xdebug: ",
+				"Xdebug: Restart Session"
+			],
+			[
+				"xdebug: add",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"x",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"sta",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pref",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 209.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/dev.kunalmandalia.com.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/offline-web-app/offline-web-app-controller.php",
+		"/Users/kunalmandalia/Library/Application Support/Sublime Text 2/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/offline-web-app/offline-web-app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/offline-web-app/offline-web-app.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/simple-api/simple-api-server.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/test/phpinfo.php",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/server/projects.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/server/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/server/helper-functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/offline-web-app/Design notes.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/offline-web-app/sync-api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/test/timestamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/simple-api/simple-api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/css/simple-sidebar.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/index copy.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/test/getProjects.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/analyticstracking.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/archive/simple-api-old.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/archive/simple-api.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/archive/simple-api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/server/test/hostURLs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/simple-api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/css/nightmode.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/index.html",
+		"/Users/kunalmandalia/Documents/Github Repositories/simple-api/simple-api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/simple_api copy.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/Index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/simple_api.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/bootstrap vanilla.html",
+		"/Users/kunalmandalia/Downloads/admin-ajax.php",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Process/model.js",
+		"/Users/kunalmandalia/Documents/RussianDolls/README.md",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Process/rd2.js",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Process/rd3.js",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Process/DrawingPaths/Interactive pather.html",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Process/rd3.html",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Process/russianDolls.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/purity_iii/templates/purity_iii/tpls/blocks/footer.php",
+		"/Users/kunalmandalia/Documents/How to use the TomTom 2014-10",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Meta/How to build a startup - Youtube",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Meta/Minimal viable product",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Meta/Specifying requirements - bottom side up",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Server side/Data/Structure and query/callbacks.html",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Server side/Data/Structure and query/Project_Stage_Task.json",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Server side/Data/Structure and query/Wrapper.html",
+		"/Users/kunalmandalia/Downloads/Raphaël Reference.html",
+		"/Users/kunalmandalia/Desktop/OneDrive/DEV/batchGeoClean/spotted v1.html",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Map/batchgeoclean/handsonUIv2.html",
+		"/Users/kunalmandalia/Desktop/OneDrive/2014-07 WorkDefined/Client side/Map/batchRequestJSON.html",
+		"/Applications/AMPPS/www/tcpdf_min/demo.php",
+		"/Applications/AMPPS/www/My first site/MyFirstSite.sublime-project",
+		"/Applications/AMPPS/php-5.5/bin/php",
+		"/Applications/AMPPS/mysql/my.cnf"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"capturn",
+			"mvgd",
+			"fail",
+			"getCRMColumns",
+			"getCRMColumns( )",
+			"getCRMColumns",
+			"layout",
+			"{\n",
+			"var_dump",
+			"echo",
+			"$schema",
+			"crm_local",
+			"issame",
+			"LOCALCHANGE",
+			"create",
+			"createColumnsLocalChange",
+			"test",
+			"records",
+			"create",
+			"CRM_Sync",
+			"CRM_localChanges",
+			"getitem",
+			"apikey",
+			"inSecondsTimestamp",
+			"night",
+			"true",
+			"$jsonResult",
+			"toggle",
+			"png",
+			".php",
+			"closed",
+			"h4",
+			"Pictures",
+			"simple-api.php",
+			"resync",
+			"250",
+			"180",
+			"250",
+			"passw",
+			"label label-default",
+			"br",
+			"echo",
+			"hello",
+			">;\n",
+			"quoteName",
+			"dataset",
+			"wipeMap",
+			"dataset",
+			"updatedTable",
+			"valueset",
+			"includes",
+			"process",
+			"outputArray",
+			"8",
+			";}",
+			"<",
+			"\n",
+			"//$"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"capturn",
+			"//var_dump",
+			"//echo",
+			"CRM_LocalChange",
+			"ts",
+			"$projects",
+			"h3",
+			"pictures",
+			"200",
+			"180",
+			"100",
+			"//echo",
+			"puritydb",
+			"DATASET",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.869498078331,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.933155080214,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.xdebug":
+	{
+		"height": 223.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Xdebug Breakpoint"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true
+}

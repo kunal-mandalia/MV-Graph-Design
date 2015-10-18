@@ -1,6 +1,7 @@
+(function(window){
 'use strict';
 
-mvgd.controller = {
+capturn.controller = {
 	
 	defaultview: 
 	[
@@ -20,7 +21,7 @@ mvgd.controller = {
 
 		for (var i = 0; i < view.length; i++) {
 
-			var node = mvgd.node.create(view[i]);
+			var node = capturn.model.graphics.create(view[i]);
 			document.getElementById(svg).appendChild(node.title);
 			document.getElementById(svg).appendChild(node.border);
 			document.getElementById(svg).appendChild(node.stateicon);
@@ -30,4 +31,8 @@ mvgd.controller = {
 }
 
 //load the defaultview
-mvgd.controller.renderview(mvgd.controller.defaultview, 'svg');
+
+window.capturn.controller = capturn.controller;
+
+capturn.controller.renderview(capturn.controller.defaultview, 'svg');
+})(window);

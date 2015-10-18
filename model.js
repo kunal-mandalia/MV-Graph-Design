@@ -1,9 +1,10 @@
+(function(window){
 'use strict';
 
-var mvgd = mvgd || {};
-
+var capturn = capturn || {};
+capturn.model = {};
 //todo: load from db/open socket to db
-mvgd.data = {
+capturn.model.data = {
  	json: 
  			{
 			  a: { layer: ["b", "c"], relationships: []},
@@ -19,20 +20,20 @@ mvgd.data = {
 
 	add: function(newnode, newlayer, newrelationships){
 
-		mvgd.data.json[newnode] = {layer: newlayer, relationships: newrelationships};
+		capturn.data.json[newnode] = {layer: newlayer, relationships: newrelationships};
 	},
 
 	delete: function(node){
-		delete mvgd.data.json[node];
+		delete capturn.data.json[node];
 	},
 
 	update: function(existingnode, newlayer, newrelationships){
-		mvgd.data.json[existingnode] = {layer: newlayer, relationships: newrelationships};
+		capturn.data.json[existingnode] = {layer: newlayer, relationships: newrelationships};
 	}
 
 }
 
-mvgd.node = {
+capturn.model.graphics = {
 
 	create: function(nodeproperties){
 
@@ -145,6 +146,7 @@ mvgd.node = {
             return {title: name, border: border, stateicon: stateicon};
 
 	}
-
-
 }
+
+window.capturn = capturn;
+})(window);
