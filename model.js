@@ -121,6 +121,24 @@ capturn.model.graphics = {
 					document.getElementById(id+'-border')
 						.setAttributeNS(null,'height','300');
 
+						/*
+						todo: given we can drilldown into the node it must have
+						children.
+							1. draw all nodes' children using iterative method
+								a. find all child nodes via parents' layer elements
+								b. for each node check the state of the node provided:
+									i. if node state is 'open'
+
+									assign custom data- attributes to identify nodes belonging
+									to layers
+									e.g
+									data-capturn-layer
+									var svg = document.getElementById('svg');
+									var nodeLayerText = svg.querySelector('text[data-capturn-layer="a"]');
+									note svg.querySelector is neeeded as svg elements are nested within
+									svg elem as opposed to document.querySelector('text[data-capturn-layer="a"]');
+						*/
+
 				}
 
 				console.log("clicked state sign");
