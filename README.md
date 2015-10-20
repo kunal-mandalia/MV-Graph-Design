@@ -6,3 +6,5 @@ There's two goals for this repo:
 1. Technical: Implement a basic MVC pattern where the View includes an SVG and the controller and model handle interaction (e.g. via eventhandlers on SVG elements) and data/logic (e.g. the data structure to persist the SVG structure) respectively. Ensure that the data structures used in the Model and Controller can fully describe 'layered nodes' and navigate them easily.
 
 2. Business: demonstrate the concept of drilling down into Business Processes whilst maintaining context of other connecting Processes.
+
+[Online sketches](https://drive.google.com/file/d/0B4IfwaNOhKzodVgtdEdHZUtIWWc/view?usp=sharing) of the visualisations I want to create along with notes on possible data structures capable of describing them.

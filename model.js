@@ -7,6 +7,7 @@ capturn.model = {};
 capturn.model.data = {
  	json: 
  			{
+ 			  root: { layer: ["a"], relationships: []},
 			  a: { layer: ["b", "c"], relationships: []},
 			  b: { layer: ["d","e"], relationships: ["c"]},
 			  c: { layer: [], relationships: []},
