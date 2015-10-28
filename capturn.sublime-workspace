@@ -511,6 +511,39 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "model.js",
+			"settings":
+			{
+				"buffer_size": 4994,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "constructing the View\n\n	defaultview: \n	[\n		{ \n			node: \"a\",\n			state: \"close\",\n			topleft: {x:\"50\",y:\"50\"}, //known? or when user drags it\n			size: {x: \"200\", y: \"350\"} //depends on what comes beneath it..calculated a posteriori or when user resizes node\n		}\n	]\n\ncapturn.model.graphics.construct(view){\n	\n\n\n}\n\n			{\n 			  root: { layer: [\"a\"], relationships: []},\n			  a: { layer: [\"b\", \"c\"], relationships: []},\n			  b: { layer: [\"d\",\"e\"], relationships: [\"c\"]},\n			  c: { layer: [], relationships: []},\n			  d: { layer: [], relationships: [\"e\"]},\n			  e: { layer: [], relationships: []},\n			}\n\nWhat seems off...going up Process layers\n...perhaps views cascade layers until no further...e.g. root, a\n\n\n.json = {\n root: { layer: [\"a\",\"B\"], relationships: []},\n a: { layer: [\"b\", \"c\"], relationships: []},\n b: { layer: [\"d\",\"e\"], relationships: [\"c\"]},\n c: { layer: [], relationships: []},\n d: { layer: [\"f\", \"g\", \"h\"], relationships: [\"e\"]},\n e: { layer: [], relationships: []},\n}\n\nThis is doable...state, position and size will be calculated. Default state will be close; this\nallows the user to drilldown\n\n.view = {\n root: { state: open, position: {}, size: {} },\n a: { state: open, position: {}, size: {} },\n b: { state: open, position: {}, size: {}  },\n c: { state: null, position: {}, size: {} },\n d: { state: open, position: {}, size: {} },\n e: { state: open, position: {}, size: {} },\n f: { state: close, position: {}, size: {} },\n g: { state: null, position: {}, size: {} },\n h: { state: null, position: {}, size: {} },\n}\n\nall nodes on screen must have a state, position and size. If the view doesn't provide\nthis, it should be calculated. e.g. a: {state: open, positon: {x: 50, y:100}, size: {} } here size would be calculated algorithmically - there needs to be a geometric relationship between the nodes and their size and positioning.\n\nThe geometry of shapes (nodes, arrows,)\n",
+			"settings":
+			{
+				"buffer_size": 1887,
+				"line_ending": "Unix",
+				"name": "constructing the View"
+			}
+		},
+		{
+			"file": "controller.js",
+			"settings":
+			{
+				"buffer_size": 855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 854,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -596,6 +629,7 @@
 	},
 	"file_history":
 	[
+		"/Users/kunalmandalia/Documents/Github Repositories/capturn/README.md",
 		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/dev.kunalmandalia.com.sublime-project",
 		"/Applications/XAMPP/xamppfiles/htdocs/xampp/dev.kunalmandalia.com/projects/offline-web-app/offline-web-app-controller.php",
 		"/Users/kunalmandalia/Library/Application Support/Sublime Text 2/Packages/Xdebug Client/Xdebug.sublime-settings",
@@ -670,6 +704,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mvgd",
 			"capturn",
 			"mvgd",
 			"fail",
@@ -760,8 +795,115 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "model.js",
+					"settings":
+					{
+						"buffer_size": 4994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 1887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1528,
+								1107
+							]
+						],
+						"settings":
+						{
+							"auto_name": "constructing the View",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 662.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controller.js",
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -853,6 +995,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 147.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true
 }

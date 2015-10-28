@@ -2,31 +2,29 @@
 'use strict';
 
 capturn.controller = {
-	
-	defaultview: 
-	[
-		{ 
-			node: "a",
-			state: "close",
-			topleft: {x:"50",y:"50"},
-			size: {x: "200", y: "350"}
-		}
-	],
+
+	defaultview: {
+	 root: { state: open, position: {}, size: {} },
+	 a: { state: close, position: {}, size: {} },
+	 b: { state: open, position: {}, size: {}  },
+	 c: { state: null, position: {}, size: {} }
+	},
 
 	//changes made to defaultview reflected in activeview
-	activeview: [],
+	activeview: {},
 
 	renderview: function(view, svg){
 		// take view and render to svg document
+		var orderednodes = ["a","b","c"];
+		var node;
 
-		for (var i = 0; i < view.length; i++) {
+		for (var i = 0; i < orderednodes.length; i++) {
 
-			var node = capturn.model.graphics.create(view[i]);
-			document.getElementById(svg).appendChild(node.title);
-			document.getElementById(svg).appendChild(node.border);
-			document.getElementById(svg).appendChild(node.stateicon);
-
+			node = capturn.model.graphics.create(view[orderednodes[i]]);
 		};
+		document.getElementById(svg).appendChild(node.title);
+		document.getElementById(svg).appendChild(node.border);
+		document.getElementById(svg).appendChild(node.stateicon);
 	}
 }
 
